@@ -1,0 +1,17 @@
+program Printing;
+
+var i : integer;
+
+procedure PrintAnInteger(j : integer);
+begin
+    ...
+end;
+function triple(const x: integer): integer;
+begin
+	triple := x * 3;
+end;
+begin { main program }
+    ...
+    PrintAnInteger(i);
+    PrintAnInteger(triple(i));
+end.
